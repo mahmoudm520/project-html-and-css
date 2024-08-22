@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Contact Us</title>
+<style>
+*.bb{
+    border: solid;padding: 10px; width: 70%; box-shadow: 5px 10px #84f9e1
+}
+.aa{
+            text-decoration: none;
+            font-size: 25px;
+            color:aliceblue;
+        }
+
+</style>
+
+
+</head>
+<body style="background-color: antiquewhite;">
+    <div style="padding: 25px;;background-color:rgb(255, 0, 55);display: flex;justify-content:space-evenly; ">
+        <a class="aa"  href="index.html">index</a>  <a class="aa" href="about.html">about</a>
+    </div>
+   
+
+    <h1 style="text-align: center;">Contact Us</h1>
+    <div style="border:solid ;text-align: center ;width:40%; height: 130%;;margin:auto;border-radius:20px ;padding: 15px;background-color: aqua;">
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input class="bb" type="text" id="name" name="name" required><br>
+         <br>
+        <label for="phone">Phone:</label>
+        <input class="bb" type="tel" id="phone" name="phone" required><br>
+         <br>
+        <label for="email">Email:</label>
+        <input class="bb" type="email" id="email" name="email" required><br>
+        <br>
+        <label for="subject">Subject:</label>
+        <select class="bb" id="subject" name="subject">
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Support">Support</option>
+            <option value="Feedback">Feedback</option>
+        </select><br>
+        <br>
+        <label for="message">Message:</label>
+        <textarea class="bb" id="message" name="message" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+   </div> 
+   <br>
+   <div style="border:solid ;text-align: center ;width:40%; height: 130%;;margin:auto;border-radius:20px ;padding: 15px;background-color: aqua; font-size: larger;">
+    <h2>Website Info:</h2>
+    <ul>
+        <li>Email: info@example.com</li>
+        <li>Telephone: +123-456-7890</li>
+        <li>Fax: +123-456-7891</li>
+        <li>Facebook: <a href="https://www.facebook.com/yourpage">Your Facebook Page</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/yourpage">Your Instagram Page</a></li>
+        <li>WhatsApp: +123-456-7892</li>
+    </ul>
+    </div>
+    <br>
+
+    <center> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1929.6261210295133!2d31.25702617996975!3d30.87744562609289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spizza%20seattle%20wa!5e0!3m2!1sar!2seg!4v1699768868548!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+
+   
+</body>
+</html>
